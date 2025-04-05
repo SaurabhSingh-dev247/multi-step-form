@@ -1,11 +1,10 @@
-# muti-step-form
-# 🧾 Multi-Step Form (React)
+# Multi-Step Form (React)
 
 A  dynamic multi-step form built using **React**, designed to guide users through a smooth form-filling experience with step-by-step interaction,and context-based state management.
 
 ---
 
-## 🚀 Features
+## Features
 
 -  Built with **React**
 -  Uses **Context API** for global state management
@@ -21,7 +20,7 @@ A  dynamic multi-step form built using **React**, designed to guide users throug
 ---
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React**
 - **CSS Modules** (for styling)
