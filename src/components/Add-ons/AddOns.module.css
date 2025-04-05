@@ -1,0 +1,99 @@
+.addOnContainer {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.listWrapper {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 22px;
+  position: relative;
+  right: 37px;
+}
+
+.listItem {
+  list-style-type: none;
+}
+
+.label {
+  width: 520px;
+  padding: 8px 15px 8px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  border-radius: 8px;
+  background-color: hsl(217, 100%, 97%);
+  cursor: pointer;
+  &:hover {
+    border: 1px solid #6b6bff;
+  }
+}
+
+.active{
+    border: 1px solid #6b6bff;
+}
+
+.addOnContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.addOnText {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.primaryText {
+  color: hsl(213, 96%, 18%);
+  font-size: 16px;
+}
+
+.secondaryText {
+  font-size: 14px;
+  color: hsl(231, 11%, 63%);
+}
+
+.priceText {
+  color: hsl(243, 100%, 62%);
+}
+
+.buttonWrapper{
+    width: 550px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.next-step-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+  background-color: hsl(213, 96%, 18%);
+  color: white;
+  font-size: 16px;
+  &:hover {
+    cursor: pointer;
+    background-color: hsl(243, 100%, 62%);
+  }
+}
+
+.goBack-btn{
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color:transparent;
+  color: hsl(231, 11%, 63%);
+  &:hover{
+    cursor: pointer;
+    color: hsl(213, 96%, 18%);
+  }
+}

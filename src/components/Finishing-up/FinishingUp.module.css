@@ -1,0 +1,120 @@
+.finishing-upPage-wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+ol {
+  padding: 1.5rem;
+  width: 90%;
+  border-radius: 10px;
+  list-style-type: none;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1rem;
+  background-color: hsl(232, 56%, 95%);
+}
+
+li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li p {
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.selected-plan-text,
+.selected-plan-price {
+  color: hsl(213, 96%, 18%);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.changeBtn:hover{
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.changeBtn,
+.add-ons-feature,
+.total-text {
+  color: hsl(231, 11%, 63%);
+  font-size: 16px;
+}
+
+.add-ons-price {
+  color: hsl(213, 96%, 18%);
+}
+
+.total-price-wrapper {
+  padding-left: 1rem;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total-price {
+  font-size: 1.2rem;
+  color: hsl(243, 100%, 62%);
+  font-weight: bold;
+}
+
+p input {
+  margin: 0px 0px 0px -6px;
+  border: none;
+  background-color: unset;
+  text-decoration: underline;
+}
+
+.horizontal-line {
+  width: 100%;
+  border: 1px solid hsl(231, 11%, 63%);
+}
+
+.button-wrapper {
+  padding: 10px 22px 10p 22px;
+  border: none;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.confirm-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 14px;
+  background-color: hsl(213, 96%, 18%);
+  color: white;
+  font-size: 16px;
+  background-color: hsl(243, 100%, 62%);
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(158, 91, 221)
+  }
+}
+
+.goBack-btn {
+  border: none;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: transparent;
+  color: hsl(231, 11%, 63%);
+  &:hover {
+    cursor: pointer;
+    color: hsl(213, 96%, 18%);
+  }
+}

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Ubuntu", "serif";
+    src: url("./fonts/Ubuntu-Bold.ttf"), url("./fonts/Ubuntu-Medium.ttf"),
+      url("./fonts/Ubuntu-Regular.ttf");
+  }
+  
+  html {
+    font-size: 16px;
+  }
